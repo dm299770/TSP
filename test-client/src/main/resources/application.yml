@@ -1,0 +1,13 @@
+#EUREKA ×¢²áÖĞĞÄÅäÖÃ
+spring:
+  application:
+    name: test-client
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://admin:admin@localhost:8761/eureka
+server:
+  port: 9080
+
+
